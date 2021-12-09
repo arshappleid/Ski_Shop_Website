@@ -1,0 +1,81 @@
+body{
+    background-color:#ADD8E6;
+}
+ /* unvisited link */
+ a:link {
+    color: rgb(255, 0, 255);
+    text-decoration:none;
+   
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(61, 132, 136);
+    text-decoration:none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 0, 255);
+    text-decoration:underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(54, 54, 199);
+    text-decoration:underline;
+  } 
+  h1{
+    text-align: center;
+    color:rgb(255, 0, 255);
+    font-size: 40px;
+    
+  }
+  
+  table{
+      font-size:20px;
+      width: 100%;
+      padding:10px;
+     
+  }
+  th{
+      text-align:left;
+    
+  }
+  input[type=text] {
+    border: none;
+    border-bottom: 3px solid rgb(226, 97, 215);
+    background-color: #ADD8E6;
+  
+  }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ADD8E6;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: rgb(226, 97, 215);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(226, 97, 215);
+    color: #ADD8E6;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(226, 97, 215);
+    color: #ADD8E6;
+  }
+  p{
+      margin:10px;
+  }
